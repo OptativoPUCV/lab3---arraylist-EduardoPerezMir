@@ -32,7 +32,7 @@ void append(ArrayList * l, void * data){
 }
 
 void push(ArrayList * l, void * data, int i){
-    if (i > l->size)
+    if (i > l->size - 1)
         return;
     
     if (l->size == l->capacity)
