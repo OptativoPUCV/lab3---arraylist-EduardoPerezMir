@@ -50,3 +50,14 @@ Wed 29 Mar 2023 10:43:47 PM UTC:
  tests:  3|4
 total_score: 20/70
 c33c8eb
+Wed 29 Mar 2023 10:51:12 PM UTC: 
+ arraylist.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:44:13: error: ‘j’ undeclared (first use in this function)
+   44 |     l->data[j] = data;
+      |             ^
+arraylist.c:44:13: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+52e98ba
