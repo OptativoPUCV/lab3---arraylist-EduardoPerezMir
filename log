@@ -129,3 +129,14 @@ Wed 29 Mar 2023 11:23:33 PM UTC:
  tests:  11|1
 total_score: 50/70
 280e1a3
+Wed 29 Mar 2023 11:25:37 PM UTC: 
+ arraylist.c | 7 +++++++
+ 1 file changed, 7 insertions(+)
+In file included from test.c:5:
+arraylist.c: In function ‘get_size’:
+arraylist.c:83:10: error: unknown type name ‘siz_t’; did you mean ‘size_t’?
+   83 |     for (siz_t i = 0; i < l->capacity || l->data[i] == NULL; i++)
+      |          ^~~~~
+      |          size_t
+Compilation failed
+dc67de9
