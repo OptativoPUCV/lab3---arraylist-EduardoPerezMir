@@ -140,3 +140,9 @@ arraylist.c:83:10: error: unknown type name ‘siz_t’; did you mean ‘size_t�
       |          size_t
 Compilation failed
 dc67de9
+Wed 29 Mar 2023 11:25:48 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  11|1
+total_score: 50/70
+bf912f6
