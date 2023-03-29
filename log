@@ -28,3 +28,8 @@ arraylist.c:16:17: error: ‘*auxArrayList.data’ is used uninitialized [-Werro
 cc1: all warnings being treated as errors
 Compilation failed
 1595fb1
+Wed 29 Mar 2023 10:31:26 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+9cd12b7
