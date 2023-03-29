@@ -17,3 +17,14 @@ arraylist.c:16:17: error: ‘*auxArrayList.data’ is used uninitialized [-Werro
 cc1: all warnings being treated as errors
 Compilation failed
 69e05cc
+Wed 29 Mar 2023 10:30:47 PM UTC: 
+ arraylist.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+test.c: In function ‘createList’:
+arraylist.c:16:17: error: ‘*auxArrayList.data’ is used uninitialized [-Werror=uninitialized]
+   16 |     auxArrayList->data[0] = NULL;
+      |     ~~~~~~~~~~~~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+1595fb1
