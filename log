@@ -94,3 +94,14 @@ Wed 29 Mar 2023 11:15:23 PM UTC:
  tests:  8|2
 total_score: 40/70
 85cfe9b
+Wed 29 Mar 2023 11:20:22 PM UTC: 
+ arraylist.c | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘pop’:
+arraylist.c:57:14: error: unused variable ‘j’ [-Werror=unused-variable]
+   57 |     for (int j = i; i < l->size - 1; i++)
+      |              ^
+cc1: all warnings being treated as errors
+Compilation failed
+cd24d9f
