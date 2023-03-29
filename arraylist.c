@@ -14,7 +14,7 @@ ArrayList *createList(void) {
     ArrayList *auxArrayList = NULL;
     auxArrayList = (ArrayList *) malloc(sizeof(ArrayList));
     auxArrayList->data = NULL;
-    auxArrayList->data[0] = (void **) malloc(sizeof(void*) * 2);
+    auxArrayList->data = (void **) malloc(sizeof(void*) * 2);
     auxArrayList->capacity = 2;
     auxArrayList->size = 0;
     return auxArrayList;
