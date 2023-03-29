@@ -61,3 +61,9 @@ arraylist.c:44:13: error: ‘j’ undeclared (first use in this function)
 arraylist.c:44:13: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 52e98ba
+Wed 29 Mar 2023 10:51:34 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 20/70
+95d1712
