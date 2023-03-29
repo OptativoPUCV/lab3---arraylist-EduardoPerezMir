@@ -6,3 +6,14 @@ Wed 29 Mar 2023 10:58:09 AM UTC:
  tests:  0|6
 total_score: 0/70
 ae4e701
+Wed 29 Mar 2023 10:30:19 PM UTC: 
+ arraylist.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+test.c: In function ‘createList’:
+arraylist.c:16:17: error: ‘*auxArrayList.data’ is used uninitialized [-Werror=uninitialized]
+   16 |     auxArrayList->data[0] = (void **) malloc(sizeof(void*) * 2);
+      |     ~~~~~~~~~~~~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+69e05cc
